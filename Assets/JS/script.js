@@ -20,22 +20,24 @@ function generatePassword () {
 
 
   // Selects which characters would be in the password
-  if ((lower != "Y") && (upper != "Y") && (num != "Y") && (special != "Y")) {
+  if (((lower != "Y") || (lower != "y")) && (upper != "Y") || ((upper != "y")) && ((num != "Y") || (num != "y")) && ((special != "Y") || (special != "y"))) {
     chars = "abcdefghijklmnopqrstuvwxyz"
   }
-  if(lower == 'Y') {
+
+
+  if((lower == 'Y') || (lower == 'y')) {
     lower = "abcdefghijklmnopqrstuvwxyz";
     chars += lower;
   }
-  if(upper == 'Y') {
+  if((upper == 'Y') || (upper == 'y')) {
     upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     chars += upper;
   }
-  if(num == 'Y') {
+  if((num == 'Y') || (num == 'y')) {
     num = "0123456789";
     chars += num ;
   }
-  if(special == 'Y') {
+  if((special == 'Y') || (num == 'y')) {
     special = "!@#$%^&*()";
     chars += special;
   }
