@@ -37,7 +37,7 @@ function generatePassword () {
     num = "0123456789";
     chars += num ;
   }
-  if((special == 'Y') || (num == 'y')) {
+  if((special == 'Y') || (special == 'y')) {
     special = "!@#$%^&*()";
     chars += special;
   }
