@@ -1,6 +1,82 @@
-# 03 JavaScript: Password Generator
+# 03-Module-Challenge
+Homework for Week 3:
+___
+## JavaScript: Password Generator
 
-## Your Task
+### This [Password Generator](https://josejpd3.github.io/03-Module-Challenge/) allows you quickly generate passwords with your selection of character types and password length. By just answering some prompt questions this page is able to create a unique password tailored to your needs.
+___
+![Password Generator Screenshot](./Assets/images/password_generator_scr.jpg)
+___
+
+Instructions : 
+
+1. To generate a password click on the "Generate Password" button.
+___
+2. You will be presented with a series of prompts like this one:
+
+![Prompt Question Screenshot](./Assets/images/minimum_pass_alert_scr.jpg)
+
+Here you may input a desired numeric value and press "OK"
+___
+3. When shown a prompt like following, you may enter "Y" if you would like to include those character types, otherwise enter any other value ex: "N".
+
+
+![Prompt Question Screenshot](./Assets/images/upper_case_prompt_scr.jpg)
+___
+
+When you have answered all the prompts you will be presented with your randomly generated password.
+
+For example:
+
+![Generated Password Screenshot](./Assets/images/generated_password_scr.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ## Your Task
 
 This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
@@ -97,4 +173,4 @@ You are required to submit the following for review:
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
 - - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved. -->
