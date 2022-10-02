@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 
 function generatePassword () {
-  let chars = "abcdefghijklmnopqrstuvwxyz"
+  let chars = ""
   let newpassword = "";
 
 // Prompts
@@ -20,8 +20,12 @@ function generatePassword () {
 
 
   // Selects which characters would be in the password
+  if ((lower != "Y") && (upper != "Y") && (num != "Y") && (special != "Y")) {
+    chars = "abcdefghijklmnopqrstuvwxyz"
+  }
   if(lower == 'Y') {
     lower = "abcdefghijklmnopqrstuvwxyz";
+    chars += lower;
   }
   if(upper == 'Y') {
     upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -35,6 +39,7 @@ function generatePassword () {
     special = "!@#$%^&*()";
     chars += special;
   }
+
 
 
 // random password length between the inputs given;
